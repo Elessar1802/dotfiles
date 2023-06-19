@@ -1,0 +1,40 @@
+window:
+  padding:
+    x: 10
+    y: 10
+  dynamic_padding: true
+  decorations: none
+  opacity: 0.95
+
+font:
+  normal:
+    family: VictorMono Nerd Font
+    style: semibold
+
+  italic:
+    family: VictorMono Nerd Font
+    style: italic
+
+  bold:
+    family: VictorMono Nerd Font
+    style: bold
+
+  bold_italic:
+    family: VictorMono Nerd Font
+    style: 'bold italic'
+
+  size: 8.8
+
+live_config_reload: true
+
+draw_bold_text_with_bright_colors: true
+
+cursor:
+  style:
+    blinking: on
+
+shell:
+  program: /usr/bin/zsh
+
+key_bindings:
+  - { key: Return, mods: Alt, action: CreateNewWindow }
