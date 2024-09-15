@@ -1,0 +1,5 @@
+[user]
+	email = amrit.borah@devtron.ai
+	name = Amrit Kashyap Borah
+[alias]
+	aad = add --all -- :!yarn.lock :!vite.config.ts :!package-lock.json

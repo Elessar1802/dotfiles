@@ -1,0 +1,16 @@
+[user]
+	email = elessar1802@gmail.com
+	name = Amrit Borah
+[includeIf "gitdir:~/Code/work/"]
+	path = ~/Code/work/.gitconfig
+[includeIf "gitdir:~/Code/oss/"]
+	path = ~/Code/oss/.gitconfig
+[rerere]
+	enabled = true
+	autoUpdate = true
+[alias]
+	staash = stash --all
+	dw = diff --word-diff
+	bl = blame -w -C -C -C -L
+	ppf = pull --ff 
+	ppnr = pull --no-rebase 
